@@ -1,0 +1,27 @@
+:root {
+    --text-color: #424242;
+    --title-color: #454545;
+}
+
+.form {
+    width: 100%;
+    max-width: 370px;
+
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: inter;
+    color: var(--title-color);
+
+    margin-bottom: 15px;
+}
+
+.text {
+    font-family: inter;
+    color: var(--text-color);
+}

@@ -1,0 +1,24 @@
+.wrapper {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    width: 48px;
+    height: auto;
+}
+
+.title {
+    font-size: 4vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}

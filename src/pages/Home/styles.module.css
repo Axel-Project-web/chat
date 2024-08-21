@@ -1,0 +1,103 @@
+/*generic styles*/
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 32px;
+    color: #454545;
+    font-family: inter;
+
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 18px;
+    color: #424242;
+    font-family: inter;
+
+    margin-bottom: 40px;
+}
+
+.keyboard {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.divider {
+    height: 30px;
+}
+
+.button {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    flex-direction: column;
+
+    border: none;
+    cursor: pointer;
+    background-color: #1B1F28;
+
+    box-shadow: -2px 4px 4px 0px #909090;
+
+    position: relative;
+
+    transition-duration: .3s;
+
+    text-decoration: none;
+
+    &:hover {
+        background-color: #2f3646;
+    }
+}
+
+.tag {
+    width: 80px;
+    height: 25px;
+
+    color: white;
+    background-color: rgb(24, 24, 24);
+
+    top: 0px;
+    right: 0px;
+    position: absolute;
+
+    border-radius: 0px 10px 0px 10px;
+
+    font-size: 14px;
+    font-family: inter;
+}
+
+.icon {
+    color: white;
+
+    width: 64px;
+    height: 64px;
+}
+
+.text {
+    color: white;
+    font-size: 22px;
+    font-family: inter;
+}
+
+@media  screen and (width <= 500px) {
+    .keyboard {
+        row-gap: 25px;
+        flex-direction: column;
+    }
+
+    .divider {
+        width: 30px;
+        height: 1px;
+    }
+}
